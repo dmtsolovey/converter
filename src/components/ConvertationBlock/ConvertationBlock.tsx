@@ -30,7 +30,7 @@ export default function ConvertationBlock(): JSX.Element {
 
   return (
     <div className={styles.wrapper}>
-      <h3>CONVERT CURRENCY</h3>
+      <h3 className={styles.title}>CONVERT CURRENCY</h3>
       <div className={styles.converterFormWrapper}>
         <CurrencyRow value={from} onChange={onFromChange} />
         <CurrencyRow value={to} onChange={onToChange} />

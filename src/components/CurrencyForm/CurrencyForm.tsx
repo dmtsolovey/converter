@@ -39,6 +39,7 @@ export default function CurrencyRow({
         type="number"
         value={value.amount}
         onChange={onAmounChange}
+        placeholder={'Enter amount'}
       />
     </div>
   );

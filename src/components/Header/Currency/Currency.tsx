@@ -14,7 +14,7 @@ export default function Currency({
   return (
     <div className={styles.wrapper}>
       <span className={styles.currencyName}>
-        <span className={styles.currencySymbol}>{symbol}</span> /{" "}
+        <span className={styles.currencySymbol}>{symbol}</span>/
         <span className={styles.baseCurrency}>{base}</span>
       </span>
       <span>{rate?.toFixed(3)}</span>

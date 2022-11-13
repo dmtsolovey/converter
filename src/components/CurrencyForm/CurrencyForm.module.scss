@@ -6,19 +6,24 @@
 }
 .input,
 .select {
-  padding: 10px 20px;
+  padding: 20px;
   margin-top: 20px;
-  border-radius: 5px;
-  font-size: 30px;
-  border: none;
-  outline: 1px solid var(--primary);
-  background-color: var(--primary);
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font: inherit;
   max-width: 300px;
+  outline: none;
   width: 100%;
+  border: 1px solid var(--dark);
 }
 
 .select {
-  text-align: center;
   cursor: pointer;
-  font-weight: 700;
+  appearance: none;
+  position: relative;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAVCAYAAABYHP4bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADUSURBVHgBxZRhDcIwEEafhEk4KZWAhEqYA+oAHAwHSJgEJEwCEmAkXVqgW28tDS+5X/2ul2teCn/gNtejUU3xINNw0OFzq9EfDNQzbN0lc919wFCOELaRtZDzgZFyJn+H2wp1hK0s+7EEAbqfhiM6wjZW27SI4dBzJKFzDuObXs8oirygEGCNi2+8KrKbOucQdLob9m2fxJHXXaVzjtikPnFuKRBgjQPhaWLdhQKdc6R0P1H/i3xheNdXqNA5x5mwQZXOOeJ/cBFAaISLBvU0ZmKnzk8Ay3upQWylPgAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;
 }

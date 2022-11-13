@@ -1,0 +1,19 @@
+.wrapper {
+  background-color: var(--dark);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.linkToProfile {
+  vertical-align: middle;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  img {
+    margin-left: 10px;
+  }
+}
