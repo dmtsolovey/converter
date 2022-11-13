@@ -1,5 +1,5 @@
 import styles from "./Header.module.scss";
-import Currency from "./Currency/Currency";
+import Currency from "../Currency/Currency";
 import useLatestRates from "../../hooks/useLatestRates";
 import { BASE_CURRENCY, CURRENCIES } from "../../constants/currencies";
 
