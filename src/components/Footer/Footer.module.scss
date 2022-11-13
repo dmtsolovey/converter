@@ -1,6 +1,6 @@
 .wrapper {
   background-color: var(--dark);
-  color: white;
+  color: var(--white);
   padding: 20px;
   text-align: center;
   display: flex;
@@ -15,5 +15,12 @@
   margin: 20px;
   img {
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .linkToProfile {
+    font-size: 16px;
+    margin: 10px;
   }
 }
