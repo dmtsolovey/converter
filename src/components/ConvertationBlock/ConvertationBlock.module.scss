@@ -1,0 +1,18 @@
+.wrapper {
+  margin: 200px 0;
+  text-align: center;
+}
+
+.converterFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    margin: 100px 0;
+  }
+  .converterFormWrapper {
+    flex-direction: column;
+  }
+}

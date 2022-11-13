@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: var(--primary);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.currencyRateWrapper {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .currencyRateWrapper {
+    flex-direction: column;
+  }
+}
